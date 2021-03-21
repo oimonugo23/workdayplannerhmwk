@@ -1,10 +1,10 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -21,11 +21,11 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
@@ -33,7 +33,7 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
@@ -61,11 +61,37 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #06aed5;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
+
+.time-label {
+  display: grid;
+  place-items: center;
+  border-bottom: 1px solid black;
+}
+
+textarea {
+  border: 1px solid black;
+}
+
+.fa-save {
+  display: grid;
+  place-items: center;
+  /* color: red; */
+  font-size: 1.7rem;
+  border: 2px solid gray;
+  border-radius: 3px;
+  height: 100%;
+  width: 100%;
+}
+
+.fa-save:hover {
+  cursor: pointer;
+}
+
